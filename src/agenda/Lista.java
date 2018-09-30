@@ -17,7 +17,7 @@ public static void main(String[] args) {
     agenda.ArmazenarPessoa("Caio", 25, 1.77f );
     agenda.ArmazenarPessoa("Jane", 35, 1.65f );
     agenda.ArmazenarPessoa("Mauro", 49, 1.81f );
-    // o prÃ³ximo nÃ£o vai funcionar pois nÃ£o cabe na agenda
+  
     
     System.out.println(agenda.ArmazenarPessoa("Samual", 42, 1.70f ));
     System.out.println("Minha agenda tem "+agenda.TemQuantos());
